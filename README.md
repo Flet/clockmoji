@@ -8,7 +8,7 @@
 [travis-image]: https://img.shields.io/travis/flet/clockmoji.svg?style=flat-square
 [travis-url]: https://travis-ci.org/flet/clockmoji
 
-Returns an emoji representation of the current time.
+Get an emoji clock representation of the current time.
 
 Inspired by [moonmoji](https://www.npmjs.com/package/moonmoji), [mooon](https://github.com/bcomnes/mooon) and the [oh-my-zsh emoji-clock plugin](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/emoji-clock/emoji-clock.plugin.zsh)
 
@@ -29,35 +29,35 @@ npm install --save clockmoji
 ### Command Line Usage:
 
 ```bash
-❯ date
+date
 Tue May 26 18:19:10 CDT 2015
                 
 # no arguments will return the current time                                                                
-❯ clockmoji
+clockmoji
 🕡
 
 # Pass a time in the format mm:ss                                                         
-❯ clockmoji 10:00
+clockmoji 10:00
 🕙
 
 # Military time supported                                                         
-❯ clockmoji 14:00
+clockmoji 14:00
 🕑
                         
 # any arbitrary time works -- rounds down if its less than :15                                                        
-❯ clockmoji 12:04
+clockmoji 12:04
 🕛
 
-# rounds up if the minutes are > :15                                                                 
-❯ clockmoji 12:24
+# rounds up if the minutes are :15                                                                 
+clockmoji 12:24
 🕧
                            
 # supports piping                                             
-❯ echo 6:30 | clockmoji
+echo 6:30 | clockmoji
 🕡
                                                                                                
 # invalid time returns ⚠                                                            
-❯ clockmoji 9999 
+clockmoji 9999 
 ⚠
 ```
 
