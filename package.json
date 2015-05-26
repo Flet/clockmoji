@@ -1,0 +1,33 @@
+{
+  "name": "clockmoji",
+  "description": "Get an emoji clock representation of the current time.",
+  "version": "1.0.0",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "bin": {
+    "clockmoji":"bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Flet/clockmoji/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/Flet/clockmoji",
+  "keywords": [
+    "emoji", "clock", "command", "line"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/clockmoji.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "get-stdin": "^4.0.1"
+  }
+}
