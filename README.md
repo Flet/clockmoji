@@ -31,33 +31,33 @@ npm install --save clockmoji
 ```bash
 date
 Tue May 26 18:19:10 CDT 2015
-                
-# no arguments will return the current time                                                                
+
+# no arguments will return the current time
 clockmoji
 🕡
 
-# Pass a time in the format mm:ss                                                         
+# Pass a time in the format mm:ss
 clockmoji 10:00
 🕙
 
-# Military time supported                                                         
+# Military time supported
 clockmoji 14:00
 🕑
-                        
-# any arbitrary time works -- rounds down if its less than :15                                                        
+
+# any arbitrary time works -- rounds down if its less than :15
 clockmoji 12:04
 🕛
 
-# rounds up if the minutes are :15                                                                 
+# rounds up if the minutes are :15
 clockmoji 12:24
 🕧
-                           
-# supports piping                                             
+
+# supports piping
 echo 6:30 | clockmoji
 🕡
-                                                                                               
-# invalid time returns ⚠                                                            
-clockmoji 9999 
+
+# invalid time returns ⚠
+clockmoji 9999
 ⚠
 ```
 
@@ -68,6 +68,17 @@ console.log(clockmoji())
 console.log(clockmoji('12:00'))
 console.log(clockmoji('18:30'))
 ```
+
+## FAQ
+
+### I don't see any emoji on my command line, what should I do?
+If you're a linux user, you may need to install a special font in order for them to work. Here are a few ways to do it:
+
+- Ubuntu: `sudo apt-get install ttf-ancient-fonts`
+- Fedora: `yum install gdouros-symbola-fonts`
+- Others: Download and install the Symbola 7.21 font from [here](http://users.teilar.gr/~g1951d/)
+
+More Info https://www.kirsle.net/blog/entry/make-emoji-work-in-linux
 
 ## Contributing
 
