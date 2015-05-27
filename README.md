@@ -69,6 +69,21 @@ console.log(clockmoji('12:00'))
 console.log(clockmoji('18:30'))
 ```
 
+### Stay Prompt while at the prompt
+Once installed globally, `clockmoji` can be used to keep time on your bash/zsh prompt!
+
+Example:
+Add this to your bash config (`.bashrc`) to prefix your prompt with the current time!
+
+```bash
+PS1='$(clockmoji)'\ $PS1; export PS1;
+```
+
+Or if you use the excellent [pure](https://github.com/sindresorhus/pure) prompt with zsh, add this to your `.zshrc`
+```bash
+PURE_PROMPT_SYMBOL='$(clockmoji)'\ ❯
+```
+
 ## FAQ
 
 ### I don't see any emoji on my command line, what should I do?
