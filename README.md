@@ -5,8 +5,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/clockmoji.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/clockmoji
-[travis-image]: https://img.shields.io/travis/flet/clockmoji.svg?style=flat-square
-[travis-url]: https://travis-ci.org/flet/clockmoji
+[travis-image]: https://img.shields.io/travis/Flet/clockmoji.svg?style=flat-square
+[travis-url]: https://travis-ci.org/Flet/clockmoji
 
 Get an emoji clock representation of the current time.
 
