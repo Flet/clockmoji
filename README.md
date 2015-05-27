@@ -61,6 +61,8 @@ clockmoji 9999
 ⚠
 ```
 
+### JavaScript Usage:
+
 ```js
 var clockmoji = require('clockmoji')
 
