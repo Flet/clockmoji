@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "standard": "*",
-    "tap-spec": "^3.0.0",
+    "tap-spec": "^4.1.0",
     "tape": "^4.0.0"
   },
   "homepage": "https://github.com/Flet/clockmoji",
@@ -31,6 +31,6 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "get-stdin": "^4.0.1"
+    "get-stdin": "^5.0.0"
   }
 }
