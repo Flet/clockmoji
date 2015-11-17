@@ -1,7 +1,7 @@
 {
   "name": "clockmoji",
   "description": "Get an emoji clock representation of the current time.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Dan Flettre <fletd01@yahoo.com>",
   "bin": {
     "clockmoji": "bin/cmd.js"
