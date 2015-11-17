@@ -31,6 +31,6 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "get-stdin": "^5.0.0"
+    "get-stdin": "^5.0.1"
   }
 }
