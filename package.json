@@ -10,7 +10,7 @@
     "url": "https://github.com/Flet/clockmoji/issues"
   },
   "devDependencies": {
-    "standard": "*",
+    "standard": "6.0.0",
     "tap-spec": "^4.1.0",
     "tape": "^4.0.0"
   },
